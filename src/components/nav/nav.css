@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+
+.nav__container{
+    display: flex;
+    width: 100%;
+    height: 11vh;
+    position: sticky;
+    top:0;
+    background-color: #1e90ff;
+    z-index: 1;
+}
+
+.image__container{
+    width: 25%;
+    height: 100%;
+    margin-left: 3px;
+}
+
+.image__container h3{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-family: 'Poppins';
+    font-size: 25px;
+    letter-spacing: 1px;
+    color:#fff;
+
+}
+
+.nav__content{
+    width: 80%;
+    height: 100%;
+}
+
+.nav__content .text__search{
+    width: 40%;
+    height: 25px;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+}
+
+.nav__content ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav__links{
+    width: 60%;
+    height: 100%;
+    position: relative;
+    top: 20px;
+    float: right;
+}
+
+.nav__links ul li{
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Poppins' sans-serif;
+    cursor: pointer;
+}
+
+.nav__links ul li:hover{
+    padding: 5px;
+    border:1px solid black;
+    background-color: #fff;
+    border-radius: 5px;
+    color: #1b1b1b;   
+}
+
+.count{
+    border-radius: 8px;
+    color: #fff;
+    padding:3px;
+}
+
+span.count{
+    border-radius: 8px;
+    background-color: #fff;
+    color: #1b1b1b;
+    padding:3px;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+
+a:hover{
+    color:#1b1b1b;
+}
+
+#check{
+    visibility: hidden;
+}
+
+.nav__container label{
+    visibility: hidden;
+}
+
+@media screen and (max-width:940px){
+    .nav__container label{
+        visibility: visible;
+    }
+    #check:checked ~ .nav__container{
+        display: none;
+    }
+    .navbar{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        background-color: #1e90ff;
+    }
+    .nav__container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar__menu{
+        color: #fff;
+        font-size: 25px;
+    }
+    
+    ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    ul li{
+        margin: 5px;
+    }
+    .nav__content{
+        display: flex;
+        flex-direction: column;
+        margin: 3px;
+        justify-content: center;
+        align-items: center;
+    }
+    .nav__content .text__search{
+        width: 100%;
+        height: 25px;
+        border-radius: 5px;
+        position: relative;
+        top: 20px;
+    }
+}
