@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/shahrukhjavali/ecommerce/test/static/css/main.4e2c7d99.chunk.css",
-    "main.js": "/shahrukhjavali/ecommerce/test/static/js/main.f9fd9a4c.chunk.js",
-    "main.js.map": "/shahrukhjavali/ecommerce/test/static/js/main.f9fd9a4c.chunk.js.map",
-    "runtime-main.js": "/shahrukhjavali/ecommerce/test/static/js/runtime-main.67dc44f8.js",
-    "runtime-main.js.map": "/shahrukhjavali/ecommerce/test/static/js/runtime-main.67dc44f8.js.map",
-    "static/js/2.847959f0.chunk.js": "/shahrukhjavali/ecommerce/test/static/js/2.847959f0.chunk.js",
-    "static/js/2.847959f0.chunk.js.map": "/shahrukhjavali/ecommerce/test/static/js/2.847959f0.chunk.js.map",
-    "index.html": "/shahrukhjavali/ecommerce/test/index.html",
-    "static/css/main.4e2c7d99.chunk.css.map": "/shahrukhjavali/ecommerce/test/static/css/main.4e2c7d99.chunk.css.map",
-    "static/js/2.847959f0.chunk.js.LICENSE.txt": "/shahrukhjavali/ecommerce/test/static/js/2.847959f0.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.4e2c7d99.chunk.css",
+    "main.js": "/static/js/main.f9fd9a4c.chunk.js",
+    "main.js.map": "/static/js/main.f9fd9a4c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.de1693d8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.de1693d8.js.map",
+    "static/js/2.847959f0.chunk.js": "/static/js/2.847959f0.chunk.js",
+    "static/js/2.847959f0.chunk.js.map": "/static/js/2.847959f0.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.4e2c7d99.chunk.css.map": "/static/css/main.4e2c7d99.chunk.css.map",
+    "static/js/2.847959f0.chunk.js.LICENSE.txt": "/static/js/2.847959f0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.67dc44f8.js",
+    "static/js/runtime-main.de1693d8.js",
     "static/js/2.847959f0.chunk.js",
     "static/css/main.4e2c7d99.chunk.css",
     "static/js/main.f9fd9a4c.chunk.js"
